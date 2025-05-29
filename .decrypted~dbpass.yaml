@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Secret
+metadata:
+    name: dbsecret
+    namespace: default
+stringData:
+    user: admin
+    password: super-saiyan
